@@ -1,0 +1,59 @@
+[0.032s] Invoking command in '/home/anand/ur3e_working_reference/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anand/ur3e_working_reference/install/ur3e_sorting:/home/anand/install/motion_model_comparison:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/anand/ur3e_working_reference/src/serial -DCMAKE_INSTALL_PREFIX=/home/anand/ur3e_working_reference/install/serial
+[0.184s] -- The C compiler identification is GNU 13.3.0
+[0.185s] -- The CXX compiler identification is GNU 13.3.0
+[0.185s] -- Detecting C compiler ABI info
+[0.185s] -- Detecting C compiler ABI info - done
+[0.185s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.185s] -- Detecting C compile features
+[0.185s] -- Detecting C compile features - done
+[0.185s] -- Detecting CXX compiler ABI info
+[0.250s] -- Detecting CXX compiler ABI info - done
+[0.260s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.260s] -- Detecting CXX compile features
+[0.260s] -- Detecting CXX compile features - done
+[0.265s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.369s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.526s] -- Configuring done (0.5s)
+[0.529s] -- Generating done (0.0s)
+[0.530s] -- Build files have been written to: /home/anand/ur3e_working_reference/build/serial
+[0.534s] Invoked command in '/home/anand/ur3e_working_reference/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anand/ur3e_working_reference/install/ur3e_sorting:/home/anand/install/motion_model_comparison:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/anand/ur3e_working_reference/src/serial -DCMAKE_INSTALL_PREFIX=/home/anand/ur3e_working_reference/install/serial
+[0.535s] Invoking command in '/home/anand/ur3e_working_reference/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anand/ur3e_working_reference/install/ur3e_sorting:/home/anand/install/motion_model_comparison:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/anand/ur3e_working_reference/build/serial -- -j16 -l16
+[0.572s] [ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[0.572s] [ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[0.575s] [ 75%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[0.893s] [100%] [32m[1mLinking CXX static library libserial.a[0m
+[0.917s] [100%] Built target serial
+[0.926s] Invoked command in '/home/anand/ur3e_working_reference/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anand/ur3e_working_reference/install/ur3e_sorting:/home/anand/install/motion_model_comparison:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/anand/ur3e_working_reference/build/serial -- -j16 -l16
+[0.927s] Invoking command in '/home/anand/ur3e_working_reference/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anand/ur3e_working_reference/install/ur3e_sorting:/home/anand/install/motion_model_comparison:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/anand/ur3e_working_reference/build/serial
+[0.932s] -- Install configuration: ""
+[0.932s] -- Installing: /home/anand/ur3e_working_reference/install/serial/lib/libserial.a
+[0.932s] -- Installing: /home/anand/ur3e_working_reference/install/serial/include
+[0.932s] -- Installing: /home/anand/ur3e_working_reference/install/serial/include/serial
+[0.932s] -- Installing: /home/anand/ur3e_working_reference/install/serial/include/serial/serial.h
+[0.932s] -- Installing: /home/anand/ur3e_working_reference/install/serial/include/serial/v8stdint.h
+[0.932s] -- Installing: /home/anand/ur3e_working_reference/install/serial/include/serial/impl
+[0.932s] -- Installing: /home/anand/ur3e_working_reference/install/serial/include/serial/impl/win.h
+[0.932s] -- Installing: /home/anand/ur3e_working_reference/install/serial/include/serial/impl/unix.h
+[0.933s] -- Installing: /home/anand/ur3e_working_reference/install/serial/share/serial/environment/library_path.sh
+[0.933s] -- Installing: /home/anand/ur3e_working_reference/install/serial/share/serial/environment/library_path.dsv
+[0.933s] -- Installing: /home/anand/ur3e_working_reference/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[0.933s] -- Installing: /home/anand/ur3e_working_reference/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[0.933s] -- Installing: /home/anand/ur3e_working_reference/install/serial/share/serial/environment/ament_prefix_path.sh
+[0.933s] -- Installing: /home/anand/ur3e_working_reference/install/serial/share/serial/environment/ament_prefix_path.dsv
+[0.933s] -- Installing: /home/anand/ur3e_working_reference/install/serial/share/serial/environment/path.sh
+[0.933s] -- Installing: /home/anand/ur3e_working_reference/install/serial/share/serial/environment/path.dsv
+[0.933s] -- Installing: /home/anand/ur3e_working_reference/install/serial/share/serial/local_setup.bash
+[0.933s] -- Installing: /home/anand/ur3e_working_reference/install/serial/share/serial/local_setup.sh
+[0.933s] -- Installing: /home/anand/ur3e_working_reference/install/serial/share/serial/local_setup.zsh
+[0.933s] -- Installing: /home/anand/ur3e_working_reference/install/serial/share/serial/local_setup.dsv
+[0.933s] -- Installing: /home/anand/ur3e_working_reference/install/serial/share/serial/package.dsv
+[0.933s] -- Installing: /home/anand/ur3e_working_reference/install/serial/share/ament_index/resource_index/packages/serial
+[0.933s] -- Installing: /home/anand/ur3e_working_reference/install/serial/share/serial/cmake/export_serialExport.cmake
+[0.933s] -- Installing: /home/anand/ur3e_working_reference/install/serial/share/serial/cmake/export_serialExport-noconfig.cmake
+[0.934s] -- Installing: /home/anand/ur3e_working_reference/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.934s] -- Installing: /home/anand/ur3e_working_reference/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[0.934s] -- Installing: /home/anand/ur3e_working_reference/install/serial/share/serial/cmake/ament_cmake_export_targets-extras.cmake
+[0.934s] -- Installing: /home/anand/ur3e_working_reference/install/serial/share/serial/cmake/serialConfig.cmake
+[0.934s] -- Installing: /home/anand/ur3e_working_reference/install/serial/share/serial/cmake/serialConfig-version.cmake
+[0.934s] -- Installing: /home/anand/ur3e_working_reference/install/serial/share/serial/package.xml
+[0.935s] Invoked command in '/home/anand/ur3e_working_reference/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anand/ur3e_working_reference/install/ur3e_sorting:/home/anand/install/motion_model_comparison:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/anand/ur3e_working_reference/build/serial

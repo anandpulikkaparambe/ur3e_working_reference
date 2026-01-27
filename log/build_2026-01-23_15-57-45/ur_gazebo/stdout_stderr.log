@@ -1,0 +1,80 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found trajectory_msgs: 5.3.6 (/opt/ros/jazzy/share/trajectory_msgs/cmake)
+-- Found xacro: 2.1.1 (/opt/ros/jazzy/share/xacro/cmake)
+-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/anand/ur3e_working_reference/build/ur_gazebo
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/config/ros_gz_bridge.yaml
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/launch/__pycache__/ur.gazebo.launch.cpython-312.pyc
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/launch/simple_spawn.launch.py
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/launch/ur.gazebo.launch.py
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/brown_table/model.config
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/brown_table/model.sdf
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/cardboard_box/materials/textures/cardboard_box.png
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/cardboard_box/meshes/cardboard_box.dae
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/cardboard_box/meshes/cardboard_box.png
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/cardboard_box/model.config
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/cardboard_box/model.sdf
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/cheezit_big_original/meshes/cheez_tex_0.jpg
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/cheezit_big_original/meshes/cheezit_big_original.dae
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/cheezit_big_original/model.config
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/cheezit_big_original/model.sdf
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/coke_can/materials/textures/coke_can.png
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/coke_can/meshes/coke_can.dae
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/coke_can/model-1_2.sdf
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/coke_can/model-1_3.sdf
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/coke_can/model-1_4.sdf
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/coke_can/model.config
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/coke_can/model.sdf
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/ground_plane/model-1_2.sdf
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/ground_plane/model-1_3.sdf
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/ground_plane/model-1_4.sdf
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/ground_plane/model.config
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/ground_plane/model.sdf
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/mustard/materials/scripts/mustard.material
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/mustard/materials/textures/optimized_tsdf_texture_mapped_mesh.png
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/mustard/meshes/mustard.dae
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/mustard/meshes/texture_map.png
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/mustard/model.config
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/mustard/model.sdf
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/red_cylinder/model.config
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/red_cylinder/model.sdf
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/sun/model-1_2.sdf
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/sun/model-1_3.sdf
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/sun/model-1_4.sdf
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/sun/model.config
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/sun/model.sdf
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/worlds/conveyor.world
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/worlds/pick_and_place_demo.world
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ament_index/resource_index/package_run_dependencies/ur_gazebo
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ament_index/resource_index/parent_prefix_path/ur_gazebo
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/environment/ament_prefix_path.sh
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/environment/ament_prefix_path.dsv
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/environment/path.sh
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/environment/path.dsv
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/local_setup.bash
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/local_setup.sh
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/local_setup.zsh
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/local_setup.dsv
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/package.dsv
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ament_index/resource_index/packages/ur_gazebo
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/cmake/ur_gazeboConfig.cmake
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/cmake/ur_gazeboConfig-version.cmake
+-- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/package.xml

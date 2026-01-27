@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "robotiq_2f_gripper_msgs__py",
+		"source" : "/home/anand/ur3e_working_reference/build/robotiq_2f_gripper_msgs/robotiq_2f_gripper_msgs__py"
+	}
+}

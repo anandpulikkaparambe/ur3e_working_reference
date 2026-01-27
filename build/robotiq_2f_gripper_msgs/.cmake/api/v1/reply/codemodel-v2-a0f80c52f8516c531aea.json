@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c510b625d24114803e7f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "robotiq_2f_gripper_msgs__py",
+					"jsonFile" : "directory-robotiq_2f_gripper_msgs__py-8f8c26fa6aeac007617f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/anand/ur3e_working_reference/build/robotiq_2f_gripper_msgs/robotiq_2f_gripper_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "robotiq_2f_gripper_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_robotiq_2f_gripper_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_robotiq_2f_gripper_msgs_egg-5c4f863371c656daf05b.json",
+					"name" : "ament_cmake_python_build_robotiq_2f_gripper_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_robotiq_2f_gripper_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_robotiq_2f_gripper_msgs-58524886427a2813ac94.json",
+					"name" : "ament_cmake_python_copy_robotiq_2f_gripper_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotiq_2f_gripper_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotiq_2f_gripper_msgs-12488e4b193df15ed8cd.json",
+					"name" : "robotiq_2f_gripper_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotiq_2f_gripper_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotiq_2f_gripper_msgs__cpp-3c7d71bde95ded2132b4.json",
+					"name" : "robotiq_2f_gripper_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "robotiq_2f_gripper_msgs__py::@5e1a28cfe7cd79ec3adf",
+					"jsonFile" : "target-robotiq_2f_gripper_msgs__py-3c85c2d90c2a5734786e.json",
+					"name" : "robotiq_2f_gripper_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotiq_2f_gripper_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotiq_2f_gripper_msgs__rosidl_generator_c-949b802c08f21b3114af.json",
+					"name" : "robotiq_2f_gripper_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotiq_2f_gripper_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotiq_2f_gripper_msgs__rosidl_generator_py-d2af2ba9a2ed69c3f018.json",
+					"name" : "robotiq_2f_gripper_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotiq_2f_gripper_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotiq_2f_gripper_msgs__rosidl_generator_type_description-e2ba99e6537af2d61411.json",
+					"name" : "robotiq_2f_gripper_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotiq_2f_gripper_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotiq_2f_gripper_msgs__rosidl_typesupport_c-0843dd00f31d127b7ce0.json",
+					"name" : "robotiq_2f_gripper_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotiq_2f_gripper_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotiq_2f_gripper_msgs__rosidl_typesupport_cpp-b30011bad72dc0633007.json",
+					"name" : "robotiq_2f_gripper_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotiq_2f_gripper_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotiq_2f_gripper_msgs__rosidl_typesupport_fastrtps_c-e60dbd693037bdc22bb2.json",
+					"name" : "robotiq_2f_gripper_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotiq_2f_gripper_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotiq_2f_gripper_msgs__rosidl_typesupport_fastrtps_cpp-383bbfda471deaa6a122.json",
+					"name" : "robotiq_2f_gripper_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotiq_2f_gripper_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotiq_2f_gripper_msgs__rosidl_typesupport_introspection_c-343e0291444a8f3854bb.json",
+					"name" : "robotiq_2f_gripper_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotiq_2f_gripper_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotiq_2f_gripper_msgs__rosidl_typesupport_introspection_cpp-d5f9c3c30db179af86bd.json",
+					"name" : "robotiq_2f_gripper_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotiq_2f_gripper_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotiq_2f_gripper_msgs_s__rosidl_typesupport_c-837454837bdb6dc68c96.json",
+					"name" : "robotiq_2f_gripper_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotiq_2f_gripper_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotiq_2f_gripper_msgs_s__rosidl_typesupport_fastrtps_c-6b0c328a2ac35115a76b.json",
+					"name" : "robotiq_2f_gripper_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotiq_2f_gripper_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotiq_2f_gripper_msgs_s__rosidl_typesupport_introspection_c-3ae9c2aa9d9e9b58ff88.json",
+					"name" : "robotiq_2f_gripper_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotiq_2f_gripper_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotiq_2f_gripper_msgs_uninstall-698047f9c9d27d9202a8.json",
+					"name" : "robotiq_2f_gripper_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-dcb4229538b28bb6ce4b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/anand/ur3e_working_reference/build/robotiq_2f_gripper_msgs",
+		"source" : "/home/anand/ur3e_working_reference/src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

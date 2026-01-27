@@ -1,0 +1,86 @@
+[0.013s] Invoking command in '/home/anand/ur3e_working_reference/build/ur_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anand/ur3e_working_reference/install/ur3e_sorting:/home/anand/install/motion_model_comparison:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/anand/ur3e_working_reference/src/ur_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/anand/ur3e_working_reference/install/ur_gazebo
+[0.029s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.243s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.262s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.302s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.312s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.330s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.345s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.410s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.412s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.486s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.562s] -- Found trajectory_msgs: 5.3.6 (/opt/ros/jazzy/share/trajectory_msgs/cmake)
+[0.620s] -- Found xacro: 2.1.1 (/opt/ros/jazzy/share/xacro/cmake)
+[0.621s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.716s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.717s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.718s] -- Added test 'lint_cmake' to check CMake code style
+[0.718s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.721s] -- Added test 'xmllint' to check XML markup files
+[0.722s] -- Configuring done (0.7s)
+[0.729s] -- Generating done (0.0s)
+[0.731s] -- Build files have been written to: /home/anand/ur3e_working_reference/build/ur_gazebo
+[0.740s] Invoked command in '/home/anand/ur3e_working_reference/build/ur_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anand/ur3e_working_reference/install/ur3e_sorting:/home/anand/install/motion_model_comparison:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/anand/ur3e_working_reference/src/ur_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/anand/ur3e_working_reference/install/ur_gazebo
+[0.741s] Invoking command in '/home/anand/ur3e_working_reference/build/ur_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anand/ur3e_working_reference/install/ur3e_sorting:/home/anand/install/motion_model_comparison:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/anand/ur3e_working_reference/build/ur_gazebo -- -j16 -l16
+[0.792s] Invoked command in '/home/anand/ur3e_working_reference/build/ur_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anand/ur3e_working_reference/install/ur3e_sorting:/home/anand/install/motion_model_comparison:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/anand/ur3e_working_reference/build/ur_gazebo -- -j16 -l16
+[0.804s] Invoking command in '/home/anand/ur3e_working_reference/build/ur_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anand/ur3e_working_reference/install/ur3e_sorting:/home/anand/install/motion_model_comparison:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/anand/ur3e_working_reference/build/ur_gazebo
+[0.835s] -- Install configuration: ""
+[0.835s] -- Execute custom install script
+[0.835s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/config/ros_gz_bridge.yaml
+[0.835s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/launch/__pycache__/ur.gazebo.launch.cpython-312.pyc
+[0.838s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/launch/simple_spawn.launch.py
+[0.847s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/launch/ur.gazebo.launch.py
+[0.856s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/brown_table/model.config
+[0.869s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/brown_table/model.sdf
+[0.879s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/cardboard_box/materials/textures/cardboard_box.png
+[0.887s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/cardboard_box/meshes/cardboard_box.dae
+[0.895s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/cardboard_box/meshes/cardboard_box.png
+[0.904s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/cardboard_box/model.config
+[0.913s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/cardboard_box/model.sdf
+[0.921s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/cheezit_big_original/meshes/cheez_tex_0.jpg
+[0.931s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/cheezit_big_original/meshes/cheezit_big_original.dae
+[0.942s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/cheezit_big_original/model.config
+[0.950s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/cheezit_big_original/model.sdf
+[0.960s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/coke_can/materials/textures/coke_can.png
+[0.971s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/coke_can/meshes/coke_can.dae
+[0.979s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/coke_can/model-1_2.sdf
+[0.988s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/coke_can/model-1_3.sdf
+[0.998s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/coke_can/model-1_4.sdf
+[1.007s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/coke_can/model.config
+[1.017s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/coke_can/model.sdf
+[1.028s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/ground_plane/model-1_2.sdf
+[1.036s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/ground_plane/model-1_3.sdf
+[1.044s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/ground_plane/model-1_4.sdf
+[1.052s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/ground_plane/model.config
+[1.062s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/ground_plane/model.sdf
+[1.070s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/mustard/materials/scripts/mustard.material
+[1.080s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/mustard/materials/textures/optimized_tsdf_texture_mapped_mesh.png
+[1.088s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/mustard/meshes/mustard.dae
+[1.097s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/mustard/meshes/texture_map.png
+[1.105s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/mustard/model.config
+[1.115s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/mustard/model.sdf
+[1.127s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/red_cylinder/model.config
+[1.136s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/red_cylinder/model.sdf
+[1.145s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/sun/model-1_2.sdf
+[1.153s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/sun/model-1_3.sdf
+[1.162s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/sun/model-1_4.sdf
+[1.173s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/sun/model.config
+[1.185s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/models/sun/model.sdf
+[1.193s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/worlds/conveyor.world
+[1.202s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/worlds/pick_and_place_demo.world
+[1.212s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ament_index/resource_index/package_run_dependencies/ur_gazebo
+[1.221s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ament_index/resource_index/parent_prefix_path/ur_gazebo
+[1.230s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/environment/ament_prefix_path.sh
+[1.240s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/environment/ament_prefix_path.dsv
+[1.247s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/environment/path.sh
+[1.256s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/environment/path.dsv
+[1.265s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/local_setup.bash
+[1.273s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/local_setup.sh
+[1.282s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/local_setup.zsh
+[1.291s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/local_setup.dsv
+[1.300s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/package.dsv
+[1.308s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ament_index/resource_index/packages/ur_gazebo
+[1.317s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/cmake/ur_gazeboConfig.cmake
+[1.326s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/cmake/ur_gazeboConfig-version.cmake
+[1.335s] -- Symlinking: /home/anand/ur3e_working_reference/install/ur_gazebo/share/ur_gazebo/package.xml
+[1.346s] Invoked command in '/home/anand/ur3e_working_reference/build/ur_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anand/ur3e_working_reference/install/ur3e_sorting:/home/anand/install/motion_model_comparison:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/anand/ur3e_working_reference/build/ur_gazebo

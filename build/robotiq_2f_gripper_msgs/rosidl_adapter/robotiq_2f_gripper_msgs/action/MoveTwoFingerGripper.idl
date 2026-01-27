@@ -1,0 +1,37 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from robotiq_2f_gripper_msgs/action/MoveTwoFingerGripper.action
+// generated code does not contain a copyright notice
+
+
+module robotiq_2f_gripper_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal definition")
+    struct MoveTwoFingerGripper_Goal {
+      @verbatim (language="comment", text=
+        "target distance between fingers")
+      @unit (value="m")
+      float target_position;
+
+      @verbatim (language="comment", text=
+        "[%] of max speed [0.0 - 1.0]")
+      @default (value=1.0)
+      float target_speed;
+
+      @verbatim (language="comment", text=
+        "[%] of max force [0.0 - 1.0]")
+      @default (value=0.5)
+      float target_force;
+    };
+    @verbatim (language="comment", text=
+      "Result definition")
+    struct MoveTwoFingerGripper_Result {
+      boolean success;
+    };
+    @verbatim (language="comment", text=
+      "Feedback definition")
+    struct MoveTwoFingerGripper_Feedback {
+      string feedback;
+    };
+  };
+};

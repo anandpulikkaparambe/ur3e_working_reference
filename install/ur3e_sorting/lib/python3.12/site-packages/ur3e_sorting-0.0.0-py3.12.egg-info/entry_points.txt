@@ -1,0 +1,9 @@
+[console_scripts]
+automation_node = ur3e_sorting.automation_node:main
+detector_node = ur3e_sorting.detector_node:main
+locator_verification_node = ur3e_sorting.locator_verification:main
+perception_node = ur3e_sorting.perception_node:main
+pick_and_place_demo = ur3e_sorting.pick_and_place_demo:main
+sorting_node = ur3e_sorting.sorting_node:main
+test_moveit = ur3e_sorting.test_moveit:main
+yolo_detector = ur3e_sorting.yolo_detector:main

@@ -1,0 +1,34 @@
+[0.936s] Invoking command in '/home/anand/ur3e_working_reference/src/ur3e_sorting': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/anand/ur3e_working_reference/build/ur3e_sorting/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anand/ur3e_working_reference/install/ur3e_sorting/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ur3e_sorting build --build-base /home/anand/ur3e_working_reference/build/ur3e_sorting/build install --record /home/anand/ur3e_working_reference/build/ur3e_sorting/install.log --single-version-externally-managed install_data
+[1.462s] running egg_info
+[1.489s] writing ../../build/ur3e_sorting/ur3e_sorting.egg-info/PKG-INFO
+[1.489s] writing dependency_links to ../../build/ur3e_sorting/ur3e_sorting.egg-info/dependency_links.txt
+[1.490s] writing entry points to ../../build/ur3e_sorting/ur3e_sorting.egg-info/entry_points.txt
+[1.491s] writing requirements to ../../build/ur3e_sorting/ur3e_sorting.egg-info/requires.txt
+[1.491s] writing top-level names to ../../build/ur3e_sorting/ur3e_sorting.egg-info/top_level.txt
+[1.550s] reading manifest file '../../build/ur3e_sorting/ur3e_sorting.egg-info/SOURCES.txt'
+[1.550s] writing manifest file '../../build/ur3e_sorting/ur3e_sorting.egg-info/SOURCES.txt'
+[1.551s] running build
+[1.552s] running build_py
+[1.552s] copying ur3e_sorting/yolo_detector.py -> /home/anand/ur3e_working_reference/build/ur3e_sorting/build/lib/ur3e_sorting
+[1.553s] copying ur3e_sorting/sorting_node.py -> /home/anand/ur3e_working_reference/build/ur3e_sorting/build/lib/ur3e_sorting
+[1.554s] running install
+[1.563s] running install_lib
+[1.592s] copying /home/anand/ur3e_working_reference/build/ur3e_sorting/build/lib/ur3e_sorting/yolo_detector.py -> /home/anand/ur3e_working_reference/install/ur3e_sorting/lib/python3.12/site-packages/ur3e_sorting
+[1.593s] copying /home/anand/ur3e_working_reference/build/ur3e_sorting/build/lib/ur3e_sorting/sorting_node.py -> /home/anand/ur3e_working_reference/install/ur3e_sorting/lib/python3.12/site-packages/ur3e_sorting
+[1.596s] byte-compiling /home/anand/ur3e_working_reference/install/ur3e_sorting/lib/python3.12/site-packages/ur3e_sorting/yolo_detector.py to yolo_detector.cpython-312.pyc
+[1.599s] byte-compiling /home/anand/ur3e_working_reference/install/ur3e_sorting/lib/python3.12/site-packages/ur3e_sorting/sorting_node.py to sorting_node.cpython-312.pyc
+[1.602s] running install_data
+[1.603s] running install_egg_info
+[1.628s] removing '/home/anand/ur3e_working_reference/install/ur3e_sorting/lib/python3.12/site-packages/ur3e_sorting-0.0.0-py3.12.egg-info' (and everything under it)
+[1.632s] Copying ../../build/ur3e_sorting/ur3e_sorting.egg-info to /home/anand/ur3e_working_reference/install/ur3e_sorting/lib/python3.12/site-packages/ur3e_sorting-0.0.0-py3.12.egg-info
+[1.633s] running install_scripts
+[1.774s] Installing automation_node script to /home/anand/ur3e_working_reference/install/ur3e_sorting/lib/ur3e_sorting
+[1.775s] Installing detector_node script to /home/anand/ur3e_working_reference/install/ur3e_sorting/lib/ur3e_sorting
+[1.776s] Installing locator_verification_node script to /home/anand/ur3e_working_reference/install/ur3e_sorting/lib/ur3e_sorting
+[1.777s] Installing perception_node script to /home/anand/ur3e_working_reference/install/ur3e_sorting/lib/ur3e_sorting
+[1.777s] Installing pick_and_place_demo script to /home/anand/ur3e_working_reference/install/ur3e_sorting/lib/ur3e_sorting
+[1.778s] Installing sorting_node script to /home/anand/ur3e_working_reference/install/ur3e_sorting/lib/ur3e_sorting
+[1.779s] Installing test_moveit script to /home/anand/ur3e_working_reference/install/ur3e_sorting/lib/ur3e_sorting
+[1.780s] Installing yolo_detector script to /home/anand/ur3e_working_reference/install/ur3e_sorting/lib/ur3e_sorting
+[1.780s] writing list of installed files to '/home/anand/ur3e_working_reference/build/ur3e_sorting/install.log'
+[1.844s] Invoked command in '/home/anand/ur3e_working_reference/src/ur3e_sorting' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/anand/ur3e_working_reference/build/ur3e_sorting/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anand/ur3e_working_reference/install/ur3e_sorting/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ur3e_sorting build --build-base /home/anand/ur3e_working_reference/build/ur3e_sorting/build install --record /home/anand/ur3e_working_reference/build/ur3e_sorting/install.log --single-version-externally-managed install_data

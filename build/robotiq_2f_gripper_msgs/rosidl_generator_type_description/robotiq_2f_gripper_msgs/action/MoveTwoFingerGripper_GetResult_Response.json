@@ -1,0 +1,56 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "robotiq_2f_gripper_msgs/action/MoveTwoFingerGripper_GetResult_Response",
+      "fields": [
+        {
+          "name": "status",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "robotiq_2f_gripper_msgs/action/MoveTwoFingerGripper_Result"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "robotiq_2f_gripper_msgs/action/MoveTwoFingerGripper_Result",
+        "fields": [
+          {
+            "name": "success",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "robotiq_2f_gripper_msgs/action/MoveTwoFingerGripper_GetResult_Response",
+      "hash_string": "RIHS01_8f1cda34a9c5ed0533cdb8106c269a550f318010e5657a1fd0672ba6c72117c2"
+    },
+    {
+      "type_name": "robotiq_2f_gripper_msgs/action/MoveTwoFingerGripper_Result",
+      "hash_string": "RIHS01_b7d8779e3d8ac12fc5ce91129bd5374f5d566cbd1d94a5cc3ea97c6d318e7b17"
+    }
+  ]
+}

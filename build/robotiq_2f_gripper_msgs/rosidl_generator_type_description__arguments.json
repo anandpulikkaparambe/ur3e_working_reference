@@ -1,0 +1,14 @@
+{
+  "package_name": "robotiq_2f_gripper_msgs",
+  "output_dir": "/home/anand/ur3e_working_reference/build/robotiq_2f_gripper_msgs/rosidl_generator_type_description/robotiq_2f_gripper_msgs",
+  "idl_tuples": [
+    "/home/anand/ur3e_working_reference/build/robotiq_2f_gripper_msgs/rosidl_adapter/robotiq_2f_gripper_msgs:action/MoveTwoFingerGripper.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs"
+  ]
+}

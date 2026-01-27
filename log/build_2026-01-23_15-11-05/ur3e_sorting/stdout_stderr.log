@@ -1,0 +1,29 @@
+running develop
+running egg_info
+writing ur3e_sorting.egg-info/PKG-INFO
+writing dependency_links to ur3e_sorting.egg-info/dependency_links.txt
+writing entry points to ur3e_sorting.egg-info/entry_points.txt
+writing requirements to ur3e_sorting.egg-info/requires.txt
+writing top-level names to ur3e_sorting.egg-info/top_level.txt
+reading manifest file 'ur3e_sorting.egg-info/SOURCES.txt'
+writing manifest file 'ur3e_sorting.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/anand/ur3e_working_reference/install/ur3e_sorting/lib/python3.12/site-packages/ur3e-sorting.egg-link (link to .)
+Installing automation_node script to /home/anand/ur3e_working_reference/install/ur3e_sorting/lib/ur3e_sorting
+Installing locator_verification_node script to /home/anand/ur3e_working_reference/install/ur3e_sorting/lib/ur3e_sorting
+Installing perception_node script to /home/anand/ur3e_working_reference/install/ur3e_sorting/lib/ur3e_sorting
+Installing pick_and_place_demo script to /home/anand/ur3e_working_reference/install/ur3e_sorting/lib/ur3e_sorting
+Installing sorting_node script to /home/anand/ur3e_working_reference/install/ur3e_sorting/lib/ur3e_sorting
+Installing test_moveit script to /home/anand/ur3e_working_reference/install/ur3e_sorting/lib/ur3e_sorting
+Installing yolo_detector script to /home/anand/ur3e_working_reference/install/ur3e_sorting/lib/ur3e_sorting
+
+Installed /home/anand/ur3e_working_reference/build/ur3e_sorting
+running symlink_data
+symbolically linking /home/anand/ur3e_working_reference/build/ur3e_sorting/resource/ur3e_sorting -> /home/anand/ur3e_working_reference/install/ur3e_sorting/share/ament_index/resource_index/packages
+symbolically linking /home/anand/ur3e_working_reference/build/ur3e_sorting/package.xml -> /home/anand/ur3e_working_reference/install/ur3e_sorting/share/ur3e_sorting
+symbolically linking /home/anand/ur3e_working_reference/build/ur3e_sorting/launch/automation.launch.py -> /home/anand/ur3e_working_reference/install/ur3e_sorting/share/ur3e_sorting/launch
+symbolically linking /home/anand/ur3e_working_reference/build/ur3e_sorting/launch/simulation.launch.py -> /home/anand/ur3e_working_reference/install/ur3e_sorting/share/ur3e_sorting/launch
+symbolically linking /home/anand/ur3e_working_reference/build/ur3e_sorting/launch/debug_rviz.launch.py -> /home/anand/ur3e_working_reference/install/ur3e_sorting/share/ur3e_sorting/launch
+symbolically linking /home/anand/ur3e_working_reference/build/ur3e_sorting/launch/sorting_station.launch.py -> /home/anand/ur3e_working_reference/install/ur3e_sorting/share/ur3e_sorting/launch
+symbolically linking /home/anand/ur3e_working_reference/build/ur3e_sorting/models/red_cylinder/model.sdf -> /home/anand/ur3e_working_reference/install/ur3e_sorting/share/ur3e_sorting/models/red_cylinder
+symbolically linking /home/anand/ur3e_working_reference/build/ur3e_sorting/models/camera/model.sdf -> /home/anand/ur3e_working_reference/install/ur3e_sorting/share/ur3e_sorting/models/camera

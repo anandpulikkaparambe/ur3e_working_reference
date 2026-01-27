@@ -1,0 +1,4 @@
+source;share/robotiq_2f_gripper_hardware/local_setup.bash
+source;share/robotiq_2f_gripper_hardware/local_setup.dsv
+source;share/robotiq_2f_gripper_hardware/local_setup.sh
+source;share/robotiq_2f_gripper_hardware/local_setup.zsh
