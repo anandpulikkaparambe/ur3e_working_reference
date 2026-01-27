@@ -15,7 +15,8 @@
     safety_limits:=false
     safety_pos_margin:=0.15
     safety_k_position:=20
-    force_abs_paths:=false
+    force_abs_paths:=false,
+    skip_base_joint:=false
     ">
 
     <!-- Load configuration data from the provided .yaml files -->
@@ -212,11 +213,13 @@
     </link>
 
     <!-- base_joint fixes base_link to the environment -->
-    <joint name="${tf_prefix}base_joint" type="fixed">
-      <xacro:insert_block name="origin" />
-      <parent link="${parent}" />
-      <child link="${tf_prefix}base_link" />
-    </joint>
+    <xacro:unless value="${skip_base_joint}">
+      <joint name="${tf_prefix}base_joint" type="fixed">
+        <xacro:insert_block name="origin" />
+        <parent link="${parent}" />
+        <child link="${tf_prefix}base_link" />
+      </joint>
+    </xacro:unless>
 
     <!-- joints - main serial chain -->
     <joint name="${tf_prefix}base_link-base_link_inertia" type="fixed">

@@ -57,10 +57,10 @@ class YoloDetector(Node):
         
         # Camera Extrinsics (World -> Camera)
         # Matches <model name="camera"> in pick_and_place_demo.world
-        # Pose: 0.3 0.0 2.0
+        # Pose: 0.3 0.0 1.5
         self.cam_x_w = 0.3
         self.cam_y_w = 0.0
-        self.cam_z_w = 2.0
+        self.cam_z_w = 1.5
         
         # NOTE: Coordinate mapping depends on how the camera frame is oriented relative to world.
         # If camera is rotated -90deg around Y (looking down):
@@ -102,8 +102,8 @@ class YoloDetector(Node):
             return
 
         # Run inference
-        # 0.10 to catch EVERYTHING (we filter by ROI later)
-        results = self.model(cv_image, verbose=False, conf=0.10)
+        # 0.05 to catch EVERYTHING (we filter by ROI later)
+        results = self.model(cv_image, verbose=False, conf=0.05)
         
         # Log classes once to be sure
         if not hasattr(self, 'classes_logged'):
@@ -134,11 +134,13 @@ class YoloDetector(Node):
                 center_y = (y1 + y2) // 2
 
                 # --- SEARCH ZONE CONFIG ---
-                # Robot is on Left. Legos are on Right.
-                ROI_X_MIN = 120 # Relaxed from 180 to catch closer bricks
+                # --- SEARCH ZONE CONFIG ---
+                # Robot is on Bottom-Left. Legos are Top/Center.
+                # Rotated 90deg: Horizontal Zone (Top Strip)
+                ROI_X_MIN = 0 
                 ROI_X_MAX = 640
                 ROI_Y_MIN = 0
-                ROI_Y_MAX = 480
+                ROI_Y_MAX = 380 # Cut off Bottom 100px (Robot Base)
                 
                 # Visualize Search Zone (Blue Box)
                 cv2.rectangle(cv_image, (ROI_X_MIN, ROI_Y_MIN), (ROI_X_MAX, ROI_Y_MAX), (255, 255, 0), 2)
@@ -159,8 +161,8 @@ class YoloDetector(Node):
                 # --- FILTERING LOGIC ---
                 
                 # 0. ROI Filter
-                if center_x < ROI_X_MIN:
-                     self.get_logger().info(f"  -> REJECTED {class_name}: Outside Zone (X={center_x})")
+                if center_x < ROI_X_MIN or center_x > ROI_X_MAX or center_y > ROI_Y_MAX:
+                     self.get_logger().info(f"  -> REJECTED {class_name}: Outside Zone (Y={center_y})")
                      continue
 
                 # 1. Size Filter
@@ -212,16 +214,27 @@ class YoloDetector(Node):
                          # DEPTH FILTER:
                          # Camera Z=2.0. Table Z=0.8. Expected Dist = 1.2m.
                          # Robot Arm is taller (>0.8), so Dist < 1.1m.
-                         if depth_val < 1.15:
-                             self.get_logger().info(f"SKIPPED {class_name} (Too High/Close: {depth_val:.3f})")
-                             continue
+                         # DISABLED FOR DEBUGGING
+                         # if depth_val < 1.15:
+                         #     self.get_logger().info(f"SKIPPED {class_name} (Too High/Close: {depth_val:.3f})")
+                         #     continue
+                         pass
                              
-                         # Calc distance to image center to pick the "main" one
-                         dist = (cX - self.cx)**2 + (cY - self.cy)**2
+                         # RED PRIORITY LOGIC (User Request)
+                         # If we see a Red Lego, it IMMEDIATELY becomes the best_lego, regardless of distance.
+                         # If we already have a Red Lego, we keep the one closer to center.
+                         if class_name == 'Red':
+                             if detected_class != 'Red': # First Red we see override anything else
+                                 min_dist_to_center = dist
+                                 best_lego = (cX, cY, depth_val)
+                                 detected_class = class_name
+                             elif dist < min_dist_to_center: # Closer Red replaces Red
+                                 min_dist_to_center = dist
+                                 best_lego = (cX, cY, depth_val)
+                                 detected_class = class_name
                          
-                         # (Removed Blue Bias to prevent locking onto robot joints)
-                         
-                         if dist < min_dist_to_center:
+                         # If it's NOT Red, only pick it if we haven't found a Red yet
+                         elif detected_class != 'Red' and dist < min_dist_to_center:
                              min_dist_to_center = dist
                              best_lego = (cX, cY, depth_val)
                              detected_class = class_name
@@ -309,6 +322,10 @@ class YoloDetector(Node):
             self.debug_pub.publish(debug_msg)
         except Exception as e:
             self.get_logger().error(f'Failed to publish debug image: {e}')
+
+        # Show local window
+        cv2.imshow("YOLO Detection", cv_image)
+        cv2.waitKey(1)
 
 def main(args=None):
     rclpy.init(args=args)

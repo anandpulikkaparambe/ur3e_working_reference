@@ -29,7 +29,7 @@ def generate_launch_description():
             'launch_rviz': 'true',
             'spawn_x': '0.0',
             'spawn_y': '0.0',  # Revert to 0.0 (URDF handles offset)
-            'spawn_z': '0.0',  # Revert to 0.0 (URDF handles offset)
+            'spawn_z': '0.799',  # Table height approx 0.8m
             'spawn_yaw': '0.0',
         }.items()
     )

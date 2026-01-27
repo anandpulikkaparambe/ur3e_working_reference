@@ -281,15 +281,16 @@ class SortingNode(Node):
             # Target Z relative to Base:
             # Lego is on the same surface as base (Table).
             # To ensure we don't "Air Grab", aim LOWER.
-            # 5mm above table surface.
-            LEGO_Z_BASE = 0.005
+            # UPDATED: Raised to 0.02 (2cm) to avoid collision with table mesh during planning
+            LEGO_Z_BASE = 0.02
             
             grasp_z = LEGO_Z_BASE + GRIPPER_OFFSET
             pre_grasp_z = grasp_z + 0.10
             
-            self.get_logger().info(f"Planning Pick relative to BASE_LINK at Z: {grasp_z:.3f}")
+            self.get_logger().info(f"PLANNING: Pick relative to BASE_LINK. Target Z={grasp_z:.3f} (Offset incl)")
 
             # 0. Open Gripper
+            self.get_logger().info("ACTION: Opening Gripper")
             self.operate_gripper(0.0)
             
             # Orientation: Down with pi/2 Z rotation
