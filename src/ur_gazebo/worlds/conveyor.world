@@ -16,9 +16,7 @@
       <publish_link_pose>true</publish_link_pose>
       <publish_model_pose>true</publish_model_pose>
       <publish_nested_model_pose>true</publish_nested_model_pose>
-      <use_pose_vector_msg>true</use_pose_vector_msg>
-      <static_publisher>true</static_publisher>
-      <static_update_frequency>1</static_update_frequency>
+     
     </plugin>
 
     <!-- Lighting -->
