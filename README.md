@@ -91,10 +91,7 @@ source ~/ros2_ws/install/setup.bash
 Launches the robot, world, and controllers.
 
 ```bash
-ros2 launch ur_gazebo ur_gazebo.launch.py \
-    ur_type:=ur3e \
-    launch_rviz:=false \
-    world_file:=pick_and_place_demo.world
+ros2 launch ur_gazebo ur.gazebo.launch.py ur_type:=ur3e world_file:=pick_and_place_demo.world
 ```
 
 *Note: For Jazzy, the launch file structure may differ slightly from Humble. Ensure your launch files use the `ros_gz_bridge` instead of `gazebo_ros_pkgs`.
