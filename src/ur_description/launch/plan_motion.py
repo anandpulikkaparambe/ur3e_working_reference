@@ -13,16 +13,7 @@ class MoveIt2Planner(Node):
         # Initialize MoveIt 2 commander
         moveit_commander.roscpp_initialize(sys.argv)
         
-        # Create node
-        self.node = rclpy.create_node("moveit2_planner")
-        
-        # Create MoveGroupCommander for your planning group
-        self.move_group = moveit_commander.MoveGroupCommander("arm")  # Change "arm" to your group name
-
-        # Set planning parameters
-        self.move_group.set_planning_time(5.0)
-        self.move_group.set_num_planning_attempts(10)
-        self.move_group.set_goal_tolerance(0.01)
+       
 
     def plan_and_execute(self):
         # Get the current state
