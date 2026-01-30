@@ -637,10 +637,7 @@
       <multiplier>-1.0</multiplier>
       <offset>0.0</offset>
     </plugin>
-    <plugin filename="gz-sim-mimic-joint-system" name="gz::sim::systems::MimicJoint">
-      <joint>finger_joint</joint>
-      <mimic_joint>left_inner_finger_joint</mimic_joint>
-      <multiplier>1.0</multiplier>
+    
       <offset>0.0</offset>
     </plugin>
     <plugin filename="gz-sim-mimic-joint-system" name="gz::sim::systems::MimicJoint">
