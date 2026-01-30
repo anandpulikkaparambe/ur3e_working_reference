@@ -1,6 +1,0 @@
-{
-  "package_name": "robotiq_2f_gripper_msgs",
-  "non_idl_tuples": [
-    "/home/anand/ur3e_working_reference/src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_msgs:action/MoveTwoFingerGripper.action"
-  ]
-}
