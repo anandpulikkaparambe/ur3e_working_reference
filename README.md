@@ -97,7 +97,7 @@ ros2 launch ur_gazebo ur_gazebo.launch.py \
     world_file:=pick_and_place_demo.world
 ```
 
-*Note: For Jazzy, the launch file structure may differ slightly from Humble. Ensure your launch files use the `ros_gz_bridge` instead of `gazebo_ros_pkgs`.* [youtube](https://www.youtube.com/watch?v=DE8ZuIM3-ro)
+*Note: For Jazzy, the launch file structure may differ slightly from Humble. Ensure your launch files use the `ros_gz_bridge` instead of `gazebo_ros_pkgs`.
 
 ### Terminal 2: Perception (YOLO Detector)
 Runs the computer vision node. It opens a "YOLO Detection" window showing the camera feed and bounding boxes.
@@ -120,7 +120,7 @@ ros2 run ur3e_sorting sorting_node
 
 ### Gazebo Harmonic Specific Changes
 
-**Important**: Gazebo Harmonic uses a different plugin system and bridge compared to Gazebo Classic. Key differences: [youtube](https://www.youtube.com/watch?v=dY8JxldcuqA)
+**Important**: Gazebo Harmonic uses a different plugin system and bridge compared to Gazebo Classic.
 
 *   **Camera Plugin**: Use `<sensor type="camera">` with `<gz-sim>` tags instead of `libgazebo_ros_camera.so`
 *   **Bridge Topics**: Use `ros_gz_bridge` to connect Gazebo topics to ROS 2:
