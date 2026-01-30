@@ -18,7 +18,7 @@ This project implements an autonomous object detection, sorting, and pick-and-pl
 ## 🛠️ Tech Stack
 
 *   **OS**: Ubuntu 24.04 LTS (Noble)
-*   **Middleware**: ROS 2 Jazzy Jalisco
+*   **Middleware**: ROS 2 Jazzy
 *   **Simulation**: Gazebo Harmonic (LTS until September 2028)
 *   **Planning**: MoveIt 2
 *   **Vision**: Ultralytics YOLOv8 + OpenCV
