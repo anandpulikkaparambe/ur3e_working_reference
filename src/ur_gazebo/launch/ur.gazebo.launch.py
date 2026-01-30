@@ -53,9 +53,7 @@ def generate_launch_description():
         DeclareLaunchArgument("ur_type", default_value="ur3", description="Type/series of UR robot"),
         DeclareLaunchArgument("launch_rviz", default_value="true", description="Launch RViz?"),
         DeclareLaunchArgument("spawn_x", default_value="0.0", description="Robot spawn X"),
-        DeclareLaunchArgument("spawn_y", default_value="0.0", description="Robot spawn Y"),
-        DeclareLaunchArgument("spawn_z", default_value="0.0", description="Robot spawn Z (Root at 0, URDF handles offset)"),
-        DeclareLaunchArgument("spawn_yaw", default_value="0.0", description="Robot spawn Yaw"),
+        
     ]
 
     ld = LaunchDescription(declared_arguments)
@@ -92,8 +90,6 @@ def generate_launch_description():
     # Robot State Publisher
     robot_state_publisher_cmd = Node(
         package='robot_state_publisher',
-        executable='robot_state_publisher',
-        name='robot_state_publisher',
         output='both',
         parameters=[robot_description, {'use_sim_time': use_sim_time}]
     )
@@ -178,9 +174,6 @@ def generate_launch_description():
 
     run_move_group_node = Node(
         package="moveit_ros_move_group",
-        executable="move_group",
-        output="screen",
-        parameters=[moveit_params, {'use_sim_time': use_sim_time}],
     )
 
     rviz_node = Node(
