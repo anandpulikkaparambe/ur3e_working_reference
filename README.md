@@ -1,4 +1,4 @@
-# UR3e Lego Sorting with YOLOv8 (ROS 2 Humble)
+# UR3e Lego Sorting with YOLOv8 (ROS 2 jazzy)
 
 This project implements an autonomous object detection, sorting, and pick-and-place system using a **Universal Robots UR3e** arm and **YOLOv8** perception in a Gazebo simulation.
 
