@@ -1,4 +1,3 @@
-Based on the search results, here's the updated README for ROS 2 Jazzy and Gazebo Harmonic:
 
 # UR3e Lego Sorting with YOLOv8 (ROS 2 Jazzy)
 
