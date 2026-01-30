@@ -28,12 +28,7 @@ def generate_launch_description():
     urdf_xacro_path = os.path.join(moveit_config_share, "config", "ur.urdf.xacro") # Changed to xacro
     urdf_path = os.path.join(moveit_config_share, "config", "ur.urdf")
 
-    srdf_path = os.path.join(moveit_config_share, "config", "ur.srdf")
-    moveit_controllers_path = os.path.join(moveit_config_share, "config", "moveit_controllers.yaml")
-    joint_limits_path = os.path.join(moveit_config_share, "config", "joint_limits.yaml")
-    pilz_cartesian_limits_path = os.path.join(moveit_config_share, "config", "pilz_cartesian_limits.yaml")
-    rviz_config_path = os.path.join(moveit_config_share, "rviz", "moveit.rviz")  # Use MoveIt config's Rviz
-    kinematics_path = os.path.join(moveit_config_share, "config", "kinematics.yaml")
+   
 
     # Launch Arguments
     declared_arguments = [
