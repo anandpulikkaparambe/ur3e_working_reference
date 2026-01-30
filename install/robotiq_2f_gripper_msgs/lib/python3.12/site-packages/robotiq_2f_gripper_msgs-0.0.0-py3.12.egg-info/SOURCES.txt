@@ -1,8 +1,0 @@
-setup.py
-robotiq_2f_gripper_msgs/__init__.py
-robotiq_2f_gripper_msgs.egg-info/PKG-INFO
-robotiq_2f_gripper_msgs.egg-info/SOURCES.txt
-robotiq_2f_gripper_msgs.egg-info/dependency_links.txt
-robotiq_2f_gripper_msgs.egg-info/top_level.txt
-robotiq_2f_gripper_msgs/action/__init__.py
-robotiq_2f_gripper_msgs/action/_move_two_finger_gripper.py
