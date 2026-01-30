@@ -28,12 +28,7 @@
     </inertial>
   </link>
   <link name="shoulder_link">
-    <visual>
-      <origin rpy="0 0 3.141592653589793" xyz="0 0 0"/>
-      <geometry>
-        <mesh filename="package://ur_description/meshes/ur3e/visual/shoulder.dae"/>
-      </geometry>
-    </visual>
+   
     <collision>
       <origin rpy="0 0 3.141592653589793" xyz="0 0 0"/>
       <geometry>
