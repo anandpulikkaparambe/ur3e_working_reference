@@ -32,7 +32,7 @@ def generate_launch_description():
     pkg_share_ur_description = get_package_share_directory("ur_description")
 
     pkg_share_robotiq_140 = get_package_share_directory("robotiq_2f_gripper_description")
-    pkg_share_ur3e_sorting = get_package_share_directory('ur3e_sorting')
+    
 
     # Paths
     gazebo_models_path = os.path.join(pkg_share_gazebo, 'models')
